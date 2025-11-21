@@ -87,31 +87,31 @@
   object-position: right;
 }
 
-.grayscale {
+.filter__grayscale {
   filter: grayscale(0.6);
 }
 
-.saturate {
+.filter__saturate {
   filter: saturate(8);
 }
 
-.hue {
+.filter__hue {
   filter: hue-rotate(30deg);
 }
 
-.invert {
+.filter__invert {
   filter: invert(0.6);
 }
 
-.sepia {
+.filter__sepia {
   filter: sepia(80%);
 }
 
-.blur {
+.filter__blur {
   filter: blur(6px);
 }
 
-.mult {
+.filter__mult {
   filter: hue-rotate(50deg) contrast(0.6) brightness(1.3);
 }
 
