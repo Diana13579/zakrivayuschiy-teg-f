@@ -87,31 +87,35 @@
   object-position: right;
 }
 
-.filter__grayscale {
+.filter__car {
+  filter: contrast(0.6)
+}
+
+.filter__books {
   filter: grayscale(0.6);
 }
 
-.filter__saturate {
+.filter__fox {
   filter: saturate(8);
 }
 
-.filter__hue {
+.filter__ice-cream {
   filter: hue-rotate(30deg);
 }
 
-.filter__invert {
+.filter__street {
   filter: invert(0.6);
 }
 
-.filter__sepia {
+.filter__sunset {
   filter: sepia(80%);
 }
 
-.filter__blur {
+.filter__tape {
   filter: blur(6px);
 }
 
-.filter__multiple {
+.filter__gift {
   filter: drop-shadow(16px 16px 20px blue) contrast(0.6) brightness(1.3);
 }
 
@@ -145,7 +149,8 @@
   font-variation-settings: "wdth" var(--font-weight-main);
   font-size: 18px;
   line-height: 1.16;
-  border-block-start: 2px solid var(--color-main); padding: 23px 25px 25px;
+  border-block-start: 2px solid var(--color-main);
+  padding: 23px 25px 25px;
 }
 
 .card__buttons {
