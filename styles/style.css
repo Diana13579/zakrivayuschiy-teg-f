@@ -36,9 +36,9 @@ font-variation-settings: "wght" var(--font-weight-main);
   font-family: var(--font-accent); 
   background-color: var(--color-bg); 
   border: 2px solid var(--color-main); 
-  margin-block-end: 98px; 
   padding-top: 130px;
-  padding-bottom: 130px;
+  padding-bottom: 130px; 
+  margin-block-end: 98px; 
 } 
 
 .header__logo { 
