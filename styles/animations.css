@@ -66,7 +66,7 @@
 }
 
 .like-icon:hover .core {
-  transition-delay: 0.03s;
+  transition-delay: fill 0.3 linear; ;
 }
 
 .like-icon:hover .main-body,
@@ -74,7 +74,11 @@
   transition-delay: 0.05s;
 }
 
-.like-icon .core,
+.like-icon .core {
+  transition: fill 0.3 linear 0.03s;
+}
+
+
 .like-icon .main-body,
 .like-icon:active .core {
   transition: fill 0.3 linear;
