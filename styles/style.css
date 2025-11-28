@@ -79,6 +79,7 @@
 
 .card__title {
   font-variation-settings: "wght" var(--font-weight-title);
+  font-family: var(--font-main);
   font-size: 18px;
   line-height: 1.21;
   padding: 4px 24px 4px 10px;
@@ -314,6 +315,12 @@
   background-color: var(--color-main);
 }
 
+.icon {
+  width: 21px;
+  color: var(--color-blend);
+  mix-blend-mode: difference;
+}
+
 @media (width < 376px) {
   .label {
     inset-inline-end: 13px;
@@ -328,14 +335,8 @@
   }
 
   .icon {
-    width: 28px;
+    inline-size: 28px;
   }
-}
-
-.icon {
-  width: 21px;
-  color: var(--color-blend);
-  mix-blend-mode: difference;
 }
 
 .icon-big {
